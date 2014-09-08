@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/mayamilusheva/Projects/open_season/open_season/Resources/wax_scripts'
+let g:netrw_dirhist_2='/Users/mayamilusheva/Projects/open_season/open_season/Resources'
+let g:netrw_dirhist_3='/Users/mayamilusheva/Projects/open_season/open_season/Resources/Levels'
+let g:netrw_dirhist_4='/Users/mayamilusheva/Projects/open_season/open_season/Resources'
+let g:netrw_dirhist_5='/Users/mayamilusheva/Projects/open_season/open_season/Resources/Scripts'
+let g:netrw_dirhist_6='/Users/mayamilusheva/Projects/open_season/scripts/assets'
