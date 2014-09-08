@@ -8,19 +8,28 @@ let $PYTHONPATH = "/System/Library/Frameworks/Python.framework/Versions/2.7/Extr
 
 " let Vundle manage Vundle
 " required! 
-Bundle 'gmarik/vundle'
-Bundle 'Syntastic'
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'scrooloose/nerdtree'
-Bundle 'jistr/vim-nerdtree-tabs'
-Bundle 'kien/ctrlp.vim'
-Bundle 'SuperTab' 
+
 Bundle 'Lokaltog/vim-powerline'
-Bundle 'vim-scripts/ucompleteme'
+Bundle 'SuperTab' 
+Bundle 'airblade/vim-gitgutter'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'bling/vim-airline'
+Bundle 'gmarik/vundle'
+Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'kchmck/vim-coffee-script'
-Bundle 'tsaleh/vim-matchit'
-Bundle 'tpope/vim-fugitive'
+Bundle 'kien/ctrlp.vim'
+Bundle 'mhinz/vim-startify'
 Bundle 'mileszs/ack.vim'
+Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/syntastic'
+Bundle 'sheerun/vim-polyglot'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-repeat'
+Bundle 'tpope/vim-surround'
+Bundle 'tsaleh/vim-matchit'
+Bundle 'vim-scripts/a.vim'
+Bundle 'vim-scripts/matchit.zip.git'
+Bundle 'vim-scripts/ucompleteme'
 
 filetype plugin indent on     " required!
 syntax enable
