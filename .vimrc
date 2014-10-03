@@ -12,7 +12,7 @@ let $PYTHONPATH = "/System/Library/Frameworks/Python.framework/Versions/2.7/Extr
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'SuperTab' 
 Bundle 'airblade/vim-gitgutter'
-Bundle 'altercation/vim-colors-solarized'
+Bundle 'jwhitley/vim-colors-solarized'
 Bundle 'bling/vim-airline'
 Bundle 'gmarik/vundle'
 Bundle 'jistr/vim-nerdtree-tabs'
@@ -25,6 +25,7 @@ Bundle 'scrooloose/syntastic'
 Bundle 'sheerun/vim-polyglot'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-repeat'
+Bundle 'tpope/vim-sensible'
 Bundle 'tpope/vim-surround'
 Bundle 'tsaleh/vim-matchit'
 Bundle 'vim-scripts/a.vim'
@@ -49,6 +50,9 @@ set shiftwidth=2
 set expandtab
 set smarttab
 
+colorscheme solarized
+let g:nerdtree_tabs_open_on_console_startup=1
+
 noremap <Tab> <C-w><C-w>
 
 if has("gui_running") 
@@ -58,4 +62,8 @@ endif
 
 set nrformats-=octal
 
-let @r='"wyitk"eyitjcit=w-ek'
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
+set laststatus=2
+
+
