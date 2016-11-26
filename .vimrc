@@ -27,10 +27,11 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-sensible'
 Bundle 'tpope/vim-surround'
-Bundle 'tsaleh/vim-matchit'
 Bundle 'vim-scripts/a.vim'
-Bundle 'vim-scripts/matchit.zip.git'
 Bundle 'vim-scripts/ucompleteme'
+Bundle 'rking/ag.vim'
+Bundle 'OmniSharp/omnisharp-vim'
+Bundle 'tpope/vim-dispatch'
 
 filetype plugin indent on     " required!
 syntax enable

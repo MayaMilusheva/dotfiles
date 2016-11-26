@@ -38,7 +38,7 @@ alias c="clear"
 alias gs="git status"
 log () {
   git log \
-    --pretty=format:'%C(auto)%h (%ad) %d (%C(yellow)%an%C(reset)) %s' \
+    --pretty=format:'%C(green)%h (%ad) %d (%C(yellow)%an%C(reset)) %s' \
     --date=short \
     --graph \
     --all \
@@ -74,6 +74,10 @@ g () {
   grep $@ ./* --color=auto --recursive
 }
 
+export HISTSIZE=5000
+export SAVEHIST=5000
+export HISTFILE=~/.history
 
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
